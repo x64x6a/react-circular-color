@@ -8,7 +8,7 @@
 * http://www.cs.rit.edu/~ncs/color/t_convert.html
 */
 export default (rgb) => {
-  let result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(rgb);
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(rgb);
   if (!result)
     return null
 
